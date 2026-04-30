@@ -32,7 +32,7 @@ draw_bold_text_with_bright_colors = true
 
 [colors.primary]
 
-foreground = "#08d13b"
+foreground = "#11d48f"
 background = "#262829"
 
 [colors.cursor]
@@ -44,6 +44,11 @@ cursor = "CellForeground"
 
 start = { foreground = "CellForeground", background = "CellBackground" } 
 end = { foreground = "CellForeground", background = "CellBackground" }
+
+[colors.line_indicator]
+
+foreground = "#08d13b"
+background = "#262829"
 
 [colors.search]
 
@@ -57,7 +62,7 @@ red = "#ac4242"
 green = "#51ad10"
 yellow = "#f4bf75"
 blue = "#6a9fb5"
-magenta = "#aa759f"
+magenta = "#aa759f" ##orange
 cyan = "#88d4db"
 white = "#d8d8d8"
 
