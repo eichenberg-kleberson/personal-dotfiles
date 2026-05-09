@@ -6,8 +6,8 @@
         "height": 15,
         "width": 30,
         "padding": {
-            "top": 8,
-            "left": 5,
+            "top": 4,
+            "left": 6,
             "right": 6
        }
     },
@@ -63,11 +63,6 @@
             "keyColor": "cyan"
         },
         {
-            "type": "bios",
-            "key": "│ ├󰖡 ",
-            "keyColor": "cyan"
-        },
-        {
             "type": "packages",
             "key": "│ ├󰏗 ",
             "keyColor": "cyan"
@@ -75,32 +70,6 @@
         {
             "type": "shell",
             "key": "└ └󰞷 ",
-            "keyColor": "cyan"
-        },
-        "break",
-        {
-            "type": "de",
-            "key": "󰧨  DE",
-            "keyColor": "cyan"
-        },
-        {
-            "type": "lm",
-            "key": "│ ├󰍁 ",
-            "keyColor": "cyan"
-        },
-        {
-            "type": "wm",
-            "key": "│ ├󱂬 ",
-            "keyColor": "cyan"
-        },
-        {
-            "type": "wmtheme",
-            "key": "│ ├󰉦 ",
-            "keyColor": "cyan"
-        },
-        {
-            "type": "terminal",
-            "key": "└ └󰆍 ",
             "keyColor": "cyan"
         },
         {

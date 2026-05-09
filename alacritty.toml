@@ -72,22 +72,22 @@ size = 15
 
 [font.normal]
 
-family = "JetBrainsMono Nerd Font"
+family = "Hack"
 style = "Regular"
 
 [font.bold]
 
-family = "JetbrainsMono Nerd Font"
+family = "Hack"
 style = "Bold"
 
 [font.italic]
 
-family = "JetbrainsMono Nerd Font"
+family = "Hack"
 style = "Italic"
 
 [font.bold_italic]
 
-family = "JetbrainsMono Nerd Font"
+family = "Hack"
 style = "Bold Italic"
 
 [selection]
