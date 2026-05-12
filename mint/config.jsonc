@@ -1,0 +1,100 @@
+{
+	"logo": {
+		"height": 10,
+		"width": 20,
+		"padding": {
+			"top": 2,
+			"left": 9,
+			"right": 1
+		}
+    },
+    "modules": [
+        "break",
+        {
+            "type": "custom",
+            "format": "\u001b[32m┌──────────────────────SPECS──────────────────────┐"
+        },
+        "break",
+        {
+            "type": "cpu",
+            "key": " ┌CPU",
+            "keyColor": "green"
+        },
+        {
+            "type": "gpu",
+            "key": " ├GPU",
+            "keyColor": "green",
+            "hideType": "integrated"
+        },
+        {
+            "type": "memory",
+            "key": " ├RAM",
+            "keyColor": "green"
+        },
+        {
+            "type": "disk",
+            "key": " └DISK",
+            "keyColor": "green"
+        },
+        "break",
+        {
+            "type": "custom",
+            "format": "\u001b[32m└─────────────────────────────────────────────────┘"
+        },
+        "break",
+        {
+            "type": "custom",
+            "format": "\u001b[32m┌──────────────────────SYSTEM──────────────────────┐"
+        },
+        {
+            "type": "os",
+            "key": " ┌OS",
+            "keyColor": "green"
+        },
+        {
+            "type": "kernel",
+            "key": " ├KRNL",
+            "keyColor": "green"
+        },
+        {
+            "type": "packages",
+            "key": " ├PKG",
+            "keyColor": "green"
+        },
+        {
+            "type": "shell",
+            "key": " └SH",
+            "keyColor": "green"
+        },
+        {
+            "type": "custom",
+            "format": "\u001b[32m└──────────────────────────────────────────────────┘"
+        },
+        "break",
+        {
+            "type": "custom",
+            "format": "\u001b[32m┌─────────────────DATES──────────────────┐"
+        },
+        {
+            "type": "command",
+            "key": "  ›  OS Age",
+            "keyColor": "green",
+            "text": "birth_install=$(stat -c %W /); current=$(date +%s); time_progression=$((current - birth_install)); days_difference=$((time_progression / 86400)); echo $days_difference days"
+        },
+        {
+            "type": "uptime",
+            "key": "  ›  Uptime",
+            "keyColor": "green"
+        },
+        {
+            "type": "datetime",
+            "key": "  ›  DateTime",
+            "keyColor": "green"
+        },
+        {
+            "type": "custom",
+            "format": "\u001b[32m└────────────────────────────────────────┘"
+        },
+    ]
+}
+
