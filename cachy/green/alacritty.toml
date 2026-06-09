@@ -14,7 +14,7 @@ decorations_theme_variant = "Dark"
 [window.dimensions]
 
 columns = 136
-lines = 38
+lines = 32
 
 [window.class]
 
@@ -68,12 +68,12 @@ white = "#d8d8d8"
 
 [font]
 
-size = 15
+size = 14
 
 [font.normal]
 
 family = "Hack"
-style = "Regular"
+style = "Bold"
 
 [font.bold]
 
@@ -83,7 +83,7 @@ style = "Bold"
 [font.italic]
 
 family = "Hack"
-style = "Italic"
+style = "Bold Italic"
 
 [font.bold_italic]
 
