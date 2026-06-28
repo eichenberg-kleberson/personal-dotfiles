@@ -1,3 +1,1 @@
-Minhas dotfiles pessoais.
-
--Alacritty e fastfetch dotfiles.
+Minhas dotfiles e configuracões pessoais.
