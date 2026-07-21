@@ -1,0 +1,118 @@
+{
+	"display": {
+		"separator": "   "
+	},
+	
+	"logo": {
+	        "type": "auto",
+	        "color": {
+	        	"1": "#09B554",
+	        	"2": "#09A0B5"
+	        },
+	        "source": "CachyOS_small",
+	        "height": 15,
+	        "width": 35,
+	        "padding": {
+	            "top": 6,
+	            "left": 8,
+	            "right": 6
+	       },
+	},
+	
+    "modules": [
+    	"break",
+    	{
+    		"type": "custom",
+    		"format": "{#38;2;9;160;181}┌────────────────── 󰇅 SPECS ─────────────────┐"
+    	},
+        {
+            "type": "host",
+            "key": "  󰚗  ",
+            "keyColor": "#09A0B5"
+        },
+        {
+            "type": "cpu",
+            "key": "  󰻠  ",
+            "keyColor": "#09A0B5"
+        },
+        {
+            "type": "gpu",
+            "key": "  󰍹  ",
+            "keyColor": "#09A0B5",
+            "hideType": "integrated"
+        },
+        {
+            "type": "memory",
+            "key": "    ",
+            "keyColor": "#09A0B5"
+        },
+        {
+            "type": "custom",
+            "format": "{#38;2;9;160;181}└────────────────────────────────────────────┘"
+        },
+        "break",
+        {
+            "type": "custom",
+            "format": "{#38;2;9;160;181}┌────────────────── 󰋊 DISKS ─────────────────┐"
+        },
+        {
+            "type": "disk",
+            "key": "  󰋊  ",
+            "keyColor": "#09A0B5"
+        },
+        {
+            "type": "custom",
+            "format": "{#38;2;9;160;181}└────────────────────────────────────────────┘"
+        },
+        "break",
+        {
+            "type": "custom",
+            "format": "{#38;2;9;160;181}┌────────────────── 󰣇 SYSTEM ────────────────┐"
+        },
+        {
+            "type": "os",
+            "key": "  󰣇  ",
+            "keyColor": "#09A0B5"
+        },
+        {
+            "type": "kernel",
+            "key": "    ",
+            "keyColor": "#09A0B5"
+        },
+        {
+            "type": "packages",
+            "key": "  󰏗  ",
+            "keyColor": "#09A0B5"
+        },
+        {
+            "type": "shell",
+            "key": "  󰞷  ",
+            "keyColor": "#09A0B5"
+        },
+        {
+            "type": "custom",
+            "format": "{#38;2;9;160;181}└────────────────────────────────────────────┘"
+        },
+        "break",
+        {
+            "type": "custom",
+            "format": "{#38;2;9;160;181}┌────────────────── 󰃭 TIME ──────────────────┐"
+        },
+        {
+            "type": "command",
+            "key": "  󰃭  ",
+            "keyColor": "#09A0B5",
+            "text": "birth_install=$(stat -c %W /); current=$(date +%s); time_progression=$((current - birth_install)); days_difference=$((time_progression / 86400)); echo $days_difference days"
+        },
+        {
+            "type": "uptime",
+            "key": "    ",
+            "keyColor": "#09A0B5"
+        },
+        {
+            "type": "custom",
+            "format": "{#38;2;9;160;181}└────────────────────────────────────────────┘"
+        },
+    ]
+}
+
